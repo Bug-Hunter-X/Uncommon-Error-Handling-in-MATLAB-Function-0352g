@@ -1,0 +1,3 @@
+This repository contains a MATLAB function that demonstrates an uncommon error handling scenario.  The function `myFunction.m` performs a simple calculation, but it includes explicit error checking. If the input is negative, an error is thrown. A `try-catch` block is used to gracefully handle this error and prevent the program from crashing. The `bugSolution.m` shows an improved version of the function.
+
+The purpose of this example is to highlight the importance of robust error handling in MATLAB code, particularly for functions that might be called by other functions or scripts.
